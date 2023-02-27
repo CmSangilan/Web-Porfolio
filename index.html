@@ -3,27 +3,241 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- fontstyle -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="./index.css">
+
 	<title>Web Developer Portfolio</title>
 </head>
-<body class="text-center bg-secondary text-white">
-	<div class="bg-primary text-light fixed-top p-1">
+<body>
+	<!-- Icons -->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+	<div class="bg-dark text-white fixed-top">
 		<!-- Nav Bar -->
-		<nav class="navbar navbar-light bg-light">
-		  <a class="navbar-brand">CM</a>
-		  <form class="form-inline">
-		    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-		    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		  </form>
+		<nav class="navbar navbar-expand-sm navbar-dark bg-transparent text-dark p-1">
+		  <a class="navbar-brand" href="#">
+		  	<img width="100" src="C:\Users\ASUS\Downloads\_CMS_.png" class="img-fluid">
+		  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse px-3" id="navbarNav">
+		    <ul class="navbar-nav ml-auto">
+		      <!-- <li class="nav-item active px-lg-4 rounded">
+		        <a class="nav-link active" href="./index.html#Home">Home</a>
+		      </li> -->
+		      <li class="nav-item px-lg-4 rounded">
+
+		        <a class="nav-link" href="./index.html#AboutMe">About Me</a>
+		      </li>
+		      <li class="nav-item px-lg-4 rounded">
+		        <a class="nav-link" href="./index.html#Projects">Projects</a>
+		      </li>
+		      <li class="nav-item px-lg-4 rounded">
+		        <a class="nav-link" href="./index.html#ContactMe">Contact Me</a>
+		      </li>
+		    </ul>
+		  </div>
 		</nav>
 	</div>
+
 	<!-- Landing/Home page -->
-	<div class="mt-5 pt-5">
-		<h2 >Christelle Mae Sangilan</h2>
-		<h3>My Portfolio</h3>
-	</div>
+
+	<section class="home" id="bg-image" id="Home">
+		<div class="container-fluid pt-5">
+			<div class="row">
+				<div class="landing container-fluid pt-5 ">
+					<div class="col col-lg-6 col-md-6 col-sm-12 order-lg-2 order-1 order-md-2 order-xl-2 order-sm-2">
+						<img src="C:\Users\ASUS\Pictures\MyPhoto.jpg"
+						class="img-fluid rounded border border-white p-2">
+					</div>
+					<div class="home-text col col-lg-6 col-md-6 col-sm-12 order-lg-2 order-2 order-md-2 order-xl-2 order-sm-1 my-auto">
+
+						<h1>Hello There,</h1>
+						<h3>My name is Chris</h3>
+						<p>I'm a Frontend Developer and I used Codes to turn Ideas into Reality.</p>
+						<div>
+				        	<a class="btn btn-danger px-3 rounded-pill" href="file:///C:/Users/ASUS/Documents/My_Resume.pdf" role="button" target="_blank">Hire Me</a>
+				        </div>                   
+				
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>	
+
+
+
+	<!-- About Me -->
+	<section class="about-me text-center" id="AboutMe">
+  			<div class="About Me py-2">
+  				<h3  href="About Me">
+  				About Me
+  				</h3>
+
+            <div class="mx-auto w-25 mt-2 pt-2">
+
+                <img width="400" src="C:\Users\ASUS\Pictures\MyPhoto.jpg" class="rounded-circle border border-dark bg-white img-fluid"/>
+                <div>
+                    <h2 class="mb-1">
+                        	CM Sangilan
+                    </h2>
+                    
+                    <h4 class=" text-capitalize text-uppercase font-weight-bold">FrontEnd Web Developer</h4>
+                </div>
+                
+            </div>
+
+            <p class="mx-auto mt-3 w-50">
+                 I love doing things beyond expectations, fastlearner and a keen observer. A designer by the heart and a developer by the soul.
+                 A career shifter, but a goal driven person. Pursuing a new career as a Fullstack Web developer.
+            </p>
+
+            <div class="social text-center mx-auto">
+            	<a class="social-icon icon-2x" href="https://www.facebook.com/christellemae.sangilan.5/" target="_blank">
+            		<ion-icon name="logo-facebook"></ion-icon>
+            	</a>
+            	<a class="social-icon" href="https://github.com/CmSangilan" target="_blank">
+            		<ion-icon name="logo-github"></ion-icon>
+            	</a>
+            	
+            </div>
+
+        </div>
+
+    </section>
+
+
+         <!-- Projects -->
+    <section class="text-center" id="Projects">
+
+	    <div class=" text-white container-fluid" id="projects">
+
+	        <div class="container-fluid justify-content-center py-3">
+	        	<h3>My Projects</h3>
+
+	        		<div class="">
+	        			
+
+	                        <div class="bg-dark d-inline-block p-3 px-3 mx-auto text-white">
+	                            <img width="300" src="C:\Users\ASUS\Pictures\Saved Pictures\Project_1.jpg">
+	                            <h3 class="p-2 mx-3 font-weight-normal">My First Project</h3>
+	                            <p class="font-weight-normal">A simple project made from HTML/CSS/BOOTSTRAP</p>
+	                            <div>
+	                            <a class="btn btn-success" href="https://gitlab.com/b256-sangilan/s11/s11" role="button" target="_blank">View Code</a>
+	                            </div>
+	                           
+	                        </div>
+	                        <div class="bg-dark d-inline-block p-3 px-3 mx-auto  text-white">
+	                        <img width="300" src="C:\Users\ASUS\Pictures\Saved Pictures\Project_2.jpg">
+	                     <h3 class="font-weight-normal p-2 mx-3">My Second Project</h3>
+	                        <p class="font-weight-light">A simple project made from HTML/CSS/BOOTSTRAP</p>
+		                        <div>
+		                            <a class="btn btn-success" href="https://gitlab.com/b256-sangilan/activity/s10" role="button" target="_blank">View Code</a>
+		                        </div>
+	                        </div>
+
+	                        <div class="bg-dark d-inline-block p-3 px-3 mx-auto mb-5 text-white">
+	                        <img width="300" src="C:\Users\ASUS\Pictures\Saved Pictures\Project_3.jpg">
+	                        <h3 class="font-weight-normal p-2 ">My Third Project</h3>
+	                        <p class="font-weight-light">A simple project made from HTML/CSS/BOOTSTRAP</p>
+	                        	<div>
+	                            <a class="btn btn-success" href="https://gitlab.com/b256-sangilan/s09/s09" role="button" target="_blank">View Code</a>
+	                            </div>
+	                </div>
+	        
+	            </div>
+	            
+	        </div> 
+
+	    </div>
+
+    </section>
+   
+        <!-- End of Projects -->
+
+
+        <!-- Contact Me Section -->
+    <section id="ContactMe">
+        		<div id="bg-image2" >
+
+					<div class="text-white min-vh-100 pt-0 mx-auto px-5">
+								<div class="d-flex justify-content-center px-auto">
+									<h2 class="mb-1 py-3">Contact Me</h2>
+								</div>
+						
+							<form class="d-flex p-md-2 justify-content-center">
+								<div class="form-row bg-primary col-xl-4 col-md-8 col-xs-12" >
+								  <div class="col-xl-12 text-center">
+								  	<label for="validationDefault01">Name</label>				
+								      <input type="text" class="form-control" placeholder="Your Name" required>
+								    </div>
+								    <div class="col-xl-12 text-center p-1">
+								      <label for="exampleFormControlInput1">Email address</label>
+								    
+								      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+								      </div>
+
+								      <div class="col-xl-12 text-center p-1">
+								      <label for="phone">Contact Number</label>
+								      <input type="tel" id="phone" class="form-control" placeholder="+63 900 000 0000" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+								      
+								    <div class="col-xl-12 text-center p-1">
+								    	<label for="validationDefault01">Subject</label>
+								        <input type="text" class="form-control" placeholder="Subject Line" required>
+									</div>
+
+									<div class="col-xl-12 text-center p-1">
+									      <label for="textarea">Message</label>
+									      <textarea class="form-control" rows="7" id="textareae"></textarea>
+								     </div>
+								      
+
+								    <!-- Button trigger modal -->
+									<button type="button" class="btn btn-success px-3 m-2 border rounded-pill" data-toggle="modal" data-target="#exampleModal">
+									  Submit
+									</button>
+
+									<!-- Modal -->
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									  <div class="modal-dialog">
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <h5 class="modal-title text-dark " id="exampleModalLabel">Thank you for reaching me out!</h5>
+									        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									          <span aria-hidden="true">&times;</span>
+									        </button>
+									      </div>
+									      <div class="modal-body text-dark">
+									        Message Successfully Sent
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>			
+								  </div>
+								</div>
+							</form>
+						</div>
+					</div>
+	</section>
+
+        <!-- Footer -->
+       <!--  <div class="bg-primary text-white text-center fixed-bottom p-2">
+            <p class="text-center m-2">All assets are used for educational purposes only.</p> -->
+        <!-- </div> --> 
+        <!-- End of Footer -->
 
 
 

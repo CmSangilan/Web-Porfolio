@@ -1,0 +1,84 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Bootstrap Font*/
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.nav-link:hover {
+	background-color: red;
+
+}s
+
+.home {
+	width: 100%;
+	padding: 78px 0px;
+}
+.home img{
+	height: auto;
+	width: 420px;
+	display: flex;
+	
+
+}
+.home-text {
+	width: 550px;
+	color: white;
+	font-family: Zilla slab;
+}
+.landing {
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.home-text h1 {
+	color: white;
+	font-size: 50px;
+	margin-bottom: 20px;
+
+}
+.home-text p{
+	font-size: 20px;
+}
+
+#bg-image{
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-image: url(https://th.bing.com/th/id/R.859f01d1c9ae9baafb47397f96026b1d?rik=HrjzvXymriVocg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2ff%2fe%2f7%2f357636.jpg&ehk=NXfemNINqGOVYS%2bMcGA47p81OFVAKdABb4Bkk8qAtc8%3d&risl=&pid=ImgRaw&r=0)
+}
+
+.about-me{
+	background: linear-gradient(45deg, blueviolet, #7F46B2, #7169BD , #A097F4);
+	background-size: cover;
+	color: white;
+}
+#projects {
+	background: linear-gradient(220deg, darkblue, blue 20%, skyblue , lightskyblue);
+	background-size: cover;
+	color: white;
+}
+#bg-image2 {
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-image: url(https://www.eejournal.com/wp-content/uploads/2017/05/sponsor_tech_10.jpg);
+}
+.social-icon {
+	color: yellow;
+	font-size: 64px;
+	align-items: center;
+	text-decoration: none;
+	margin: 0 20px;
+}
